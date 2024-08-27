@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Uninstalling
 
-Please be aware that uninstalling Pretendo Docker requires a some manual steps to be taken on the console.
+Please be aware that uninstalling Bradtendo Docker requires a some manual steps to be taken on the console.
 
 :::danger
 
@@ -31,12 +31,12 @@ After backing up, **copy the `backups` directory in this repo to somewhere safe 
      :::
 
 2. Run `docker compose down` to stop the containers.
-3. Delete your copy of the `pretendo-docker` repository.
-4. Run `docker system prune -a` to free up some storage by deleting the Pretendo Docker images and build cache.
+3. Delete your copy of the `bradtendo-docker` repository.
+4. Run `docker system prune -a` to free up some storage by deleting the Bradtendo Docker images and build cache.
 
 :::danger
 
 If you have safely stored your server data backup, you may now delete the Docker volumes that start with
-`pretendo-network` to free up some more storage.
+`bradtendo-network` to free up some more storage.
 
 :::
