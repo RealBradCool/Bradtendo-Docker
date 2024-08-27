@@ -6,7 +6,7 @@ check_prerequisites() {
     prerequisites_failed=
     prerequisites_warning=
     if ! run_verbose docker version; then
-        print_error "Docker is not installed. Please install it: https://docs.docker.com/get-docker/"
+        print_error "Docker is not installed. Please install it from this link: https://docs.docker.com/get-docker/"
         print_info "If you see a \"Permission denied while trying to connect to the Docker daemon\" error, you need to \
 add your user to the docker group: https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user."
         prerequisites_failed=true
