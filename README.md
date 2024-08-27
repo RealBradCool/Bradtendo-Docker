@@ -1,4 +1,6 @@
 # Unofficial Pretendo Network server in Docker
+Credits nintendo and pretendo and the makers of pretendo-docker.
+
 
 This is an unofficial Docker Compose setup for self-hosting a Pretendo Network server (because there is no official
 self-hosting setup).
